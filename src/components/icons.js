@@ -10,7 +10,7 @@ export default function Icons() {
 		headline: 'Mit der ÖPNV App wird alles einfacher.',
 		subline: 'Schneller. Bequemer. In Echtzeit.',
 		items: [
-			{ icon: Smile, text: 'hohe Nutzerzufriedenheit' },
+			{ icon: Smile, text: 'Nutzer lieben die App' },
 			{ icon: Functions, text: 'Funktionen flexibel anpassbar' },
 			{ icon: Weeks, text: 'In wenigen Wochen implementiert' },
 			{ icon: Devices, text: 'Läuft auf allen Smartphones' },
