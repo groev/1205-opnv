@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="166" viewBox="0 0 166 166">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_7" data-name="Rechteck 7" width="166" height="166" transform="translate(1359 1968)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_maskieren_1" data-name="Gruppe maskieren 1" transform="translate(-1359 -1968)" clip-path="url(#clip-path)">
+    <path id="icons8-smartphones" d="M49.8,16.6A16.6,16.6,0,0,0,33.2,33.2V99.6a16.6,16.6,0,0,0,16.6,16.6v-83H99.6A16.6,16.6,0,0,0,83,16.6ZM83,49.8A16.6,16.6,0,0,0,66.4,66.4v66.4A16.6,16.6,0,0,0,83,149.4v-83h49.8a16.6,16.6,0,0,0-16.6-16.6ZM116.2,83A16.6,16.6,0,0,0,99.6,99.6V166a16.6,16.6,0,0,0,16.6,16.6h33.2A16.6,16.6,0,0,0,166,166V99.6A16.6,16.6,0,0,0,149.4,83Zm4.15,16.6h24.9a4.152,4.152,0,0,1,4.15,4.15v49.8a4.152,4.152,0,0,1-4.15,4.15h-24.9a4.152,4.152,0,0,1-4.15-4.15v-49.8A4.152,4.152,0,0,1,120.35,99.6Z" transform="translate(1342.4 1951.4)" fill="#fff"/>
+  </g>
+</svg>
