@@ -2,6 +2,8 @@ import React from 'react';
 import Speech2 from '../assets/speech2.svg';
 import Calendar from '../assets/calendar.svg';
 import Accordion from './accordion';
+import { Zoom } from 'react-reveal';
+
 export default function Finish() {
 	const data1 = {
 		head: 'Auszug der möglichen Module',
@@ -39,7 +41,9 @@ export default function Finish() {
 	return (
 		<div id="Finish">
 			<div className="wrapped">
-				<img src={Speech2} alt="speech2"></img>
+				<Zoom>
+					<img src={Speech2} alt="speech2"></img>
+				</Zoom>
 				<p>
 					Vereinbaren Sie jetzt Ihren persönlichen
 					<br /> und unverbindlichen Vorstellungstermin.

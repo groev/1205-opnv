@@ -1,14 +1,17 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 
 export default function GreenText() {
 	return (
 		<div id="Greentext">
 			<div className="wrapped">
-				<h2>
-					DIGITALISIERUNG.
-					<br />
-					EINFACH. MACHEN.
-				</h2>
+				<Fade down>
+					<h2>
+						DIGITALISIERUNG.
+						<br />
+						EINFACH. MACHEN.
+					</h2>
+				</Fade>
 				<div className="content">
 					<p>
 						<strong>

@@ -3,6 +3,7 @@ import Smile from '../assets/smile.svg';
 import Functions from '../assets/functions.svg';
 import Weeks from '../assets/weeks.svg';
 import Devices from '../assets/devices.svg';
+import Fade from 'react-reveal/Fade';
 
 export default function Icons() {
 	const input = {
@@ -24,10 +25,12 @@ export default function Icons() {
 					{input.items &&
 						input.items.map((item, idx) => {
 							return (
-								<div className="icon">
-									<img src={item.icon} alt={item.text} />
-									<div>{item.text}</div>
-								</div>
+								<Fade delay={(idx + 1) * 200} left>
+									<div className="icon">
+										<img src={item.icon} alt={item.text} />
+										<div>{item.text}</div>
+									</div>
+								</Fade>
 							);
 						})}
 				</div>

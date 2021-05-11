@@ -1,5 +1,6 @@
 import React from 'react';
 import Phone from '../assets/phone.png';
+import Fade from 'react-reveal/Fade';
 
 export default function SingleMockup() {
 	const input = {
@@ -24,7 +25,9 @@ export default function SingleMockup() {
 	return (
 		<div id="SingleMockup">
 			<div className="wrapped">
-				<img src={Phone} alt="handy" />
+				<Fade left>
+					<img src={Phone} alt="handy" />
+				</Fade>
 				<div className="content">
 					<h2>{input.head}</h2>
 					<ul>
