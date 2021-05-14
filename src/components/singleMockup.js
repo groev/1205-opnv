@@ -8,9 +8,9 @@ export default function SingleMockup() {
 		arguments: [
 			'Intuitive Bedienung bei niedriger Hemmschwelle',
 			'Erleichterung der Arbeitsabläufe',
-			'Aktuelle Information an das gesamte Personal in wenigen Minuten',
+			'Aktuelle Informationen an das gesamte Personal in wenigen Minuten',
 			'Einfache Erstellung und schnelle Versendung der Informationen',
-			'Sichere und messbare Erreichbarkeit der Empfänge',
+			'Sichere und messbare Erreichbarkeit der Empfänger',
 			'Schnelles Auffinden von dauerhaft verfügbaren Informationen',
 			'Einstellung von Terminen, Wünschen und Gesprächen zu jeder Zeit',
 			'Abbildung von relevanten Prozessen (z. B. Schadensmeldung) ',

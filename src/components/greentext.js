@@ -20,7 +20,7 @@ export default function GreenText() {
 					</p>
 					<ul>
 						<li>
-							Holen Sie mit der App ihr Personal bei der Veränderung mit ins
+							Holen Sie mit der App Ihr Personal bei der Veränderung mit ins
 							Boot.
 						</li>
 						<li>

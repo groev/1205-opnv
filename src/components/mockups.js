@@ -7,7 +7,7 @@ import { Zoom, Fade } from 'react-reveal';
 
 export default function Mockups() {
 	const input = {
-		text: '1,2,3 und schnell informiert und alle aktuellen Informationen immer mobil dabei.<br />Nach maximal 3 Klicks erreichen Sie die volle Bandbreite der Inhalte.',
+		text: '1, 2, 3 und schnell informiert und alle aktuellen Informationen immer mobil dabei.<br />Nach maximal 3 Klicks erreichen Sie die volle Bandbreite der Inhalte.',
 		screens: [
 			{
 				source: mockup1,
