@@ -7,8 +7,7 @@ import { Zoom, Fade } from 'react-reveal';
 
 export default function Mockups() {
 	const input = {
-		text:
-			'1,2,3 und schnell informiert und alle aktuellen Informationen immer mobil dabei.<br />Nach maximal 3 Klicks erreichen Sie die volle Bandbreite der Inhalte.',
+		text: '1,2,3 und schnell informiert und alle aktuellen Informationen immer mobil dabei.<br />Nach maximal 3 Klicks erreichen Sie die volle Bandbreite der Inhalte.',
 		screens: [
 			{
 				source: mockup1,
@@ -16,12 +15,12 @@ export default function Mockups() {
 					'Zeit- und ortsunabhängig Neues aus den unterschiedlichen Bereichen erfahren.',
 			},
 			{
-				source: mockup2,
+				source: mockup3,
 				hoverText:
 					'Behalten Sie´den Überblick mit chronologischem Aufbau der Infos',
 			},
 			{
-				source: mockup3,
+				source: mockup2,
 				hoverText: 'Alle Einzelheiten erfahren Sie hier.',
 			},
 		],

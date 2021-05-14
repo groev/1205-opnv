@@ -1,24 +1,19 @@
 import React from 'react';
-import Phone from '../assets/phone.png';
+import Phone from '../assets/Startseite_gespiegelt.png';
 import Fade from 'react-reveal/Fade';
 
 export default function SingleMockup() {
 	const input = {
-		head:
-			'Moderne Mitarbeiter-Plattform eines Mobilitätsunternehmens mit Schichtbetrieb.',
+		head: 'Moderne Mitarbeiter-Plattform eines Mobilitätsunternehmens mit Schichtbetrieb.',
 		arguments: [
 			'Intuitive Bedienung bei niedriger Hemmschwelle',
 			'Erleichterung der Arbeitsabläufe',
 			'Aktuelle Information an das gesamte Personal in wenigen Minuten',
 			'Einfache Erstellung und schnelle Versendung der Informationen',
 			'Sichere und messbare Erreichbarkeit der Empfänge',
-			,
 			'Schnelles Auffinden von dauerhaft verfügbaren Informationen',
-			,
 			'Einstellung von Terminen, Wünschen und Gesprächen zu jeder Zeit',
-			,
 			'Abbildung von relevanten Prozessen (z. B. Schadensmeldung) ',
-			,
 			'Schnittstellen zu Branchenlösungen (z. B. Perdis)',
 		],
 	};

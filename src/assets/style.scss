@@ -4,6 +4,7 @@ $blue: #022e3e;
 $white: #ffffff;
 $wrap: 1272px;
 $mobWrap: 800px;
+$tabWrap: 1100px;
 
 @mixin big {
 	font-size: 80px;
@@ -11,6 +12,10 @@ $mobWrap: 800px;
 	font-weight: normal;
 	b {
 		font-weight: bold;
+	}
+	@media (max-width: $tabWrap) {
+		font-size: 60px;
+		line-height: 70px;
 	}
 	@media (max-width: $mobWrap) {
 		font-size: 34px;
@@ -24,6 +29,10 @@ $mobWrap: 800px;
 	b {
 		font-weight: bold;
 	}
+	@media (max-width: $tabWrap) {
+		font-size: 34px;
+		line-height: 44px;
+	}
 	@media (max-width: $mobWrap) {
 		font-size: 24px;
 		line-height: 34px;
@@ -33,6 +42,10 @@ $mobWrap: 800px;
 @mixin standard {
 	font-size: 24px;
 	line-height: 34px;
+	@media (max-width: $tabWrap) {
+		font-size: 20px;
+		line-height: 30px;
+	}
 	@media (max-width: 800px) {
 		font-size: 16px;
 		line-height: 24px;
@@ -309,7 +322,8 @@ h1 {
 		}
 		img {
 			height: 658px;
-			margin-left: -200px;
+			margin-left: 0px;
+			margin-top: 50px;
 			margin-right: -200px;
 			width: auto;
 			@media (max-width: $mobWrap) {
