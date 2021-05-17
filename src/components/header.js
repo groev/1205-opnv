@@ -8,7 +8,7 @@ export default function Header() {
 		<div id="Header">
 			<img src={Logo} alt="Logo" />
 			<div>
-				<a className="contact" href="mailto:hello@12-05.de">
+				<a className="contact" href="#Finish">
 					<img src={Calendar} alt="Kalender" />
 					Termin vereinbaren
 				</a>

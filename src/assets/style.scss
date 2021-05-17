@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
 $green: #b7d12a;
 $blue: #022e3e;
 $white: #ffffff;
 $wrap: 1272px;
 $mobWrap: 800px;
 $tabWrap: 1100px;
+
+.green {
+	color: $green;
+}
 
 @mixin big {
 	font-size: 80px;
@@ -127,6 +133,7 @@ h1 {
 		text-decoration: none;
 		font-weight: bold;
 		@include fadeHover;
+
 		img {
 			margin-right: 0.5rem;
 		}
@@ -405,7 +412,7 @@ h1 {
 	text-align: center;
 	color: #fff;
 	.wrapped > img {
-		max-width: 100%;
+		max-width: 700px;
 	}
 	p {
 		@include standard;
@@ -430,6 +437,31 @@ h1 {
 		}
 		&:hover {
 			background: $white;
+		}
+	}
+	.contact {
+		a {
+			color: $green;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		margin: 0 auto;
+		margin-top: 2rem;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 70%;
+		img {
+			border-radius: 5px;
+			width: 200px;
+			height: auto;
+		}
+		p {
+			padding: 2rem;
+			text-align: left;
 		}
 	}
 	.footer {
