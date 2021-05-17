@@ -17,14 +17,14 @@ export default function Finish() {
 			'Schnelle Kontaktaufnahme',
 			'Interaktive Tarifinformationen',
 			'Schnittstellen zu Dienstplänen und Fahrzeugdaten',
-			'Und vieles mehr …',
+			'Und vieles mehr…',
 		],
 	};
 	const data2 = {
 		head: 'Vorteile im Überblick',
 		items: [
-			'Nach kurzer Zeit sofort loslegen',
-			'In kleinen Schritten - dank des modularen Systems - einzuführen',
+			'Nach kurzer Zeit sofort Loslegen',
+			'In kleinen Schritten, dank des modularen Systems - einzuführen',
 			'Keine zusätzlichen Hardware-Kosten',
 			'Nutzerfreundliche, intuitive Oberfläche ',
 			'Direkter Draht zum Personal',
@@ -35,7 +35,7 @@ export default function Finish() {
 			'Schnelle Amortisation ',
 			'Neben App-Anwendung für Smartphones auch als PC- und Tablet nutzbar',
 			'Ersetzt zahlreiche komplizierte Kommunikationswege und Prozesse',
-			'Erweiterbar auf andere Betriebsbereiche (Werkstatt, Vertrieb, Leitstelle, u.v.m.)',
+			'Erweiterbar auf andere Betriebsbereiche (Werkstatt, Vertrieb, Leitstelle, u. v. m.)',
 		],
 	};
 	return (
