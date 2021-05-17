@@ -12,7 +12,12 @@ export default function Intro() {
 		<div id="intro">
 			<div className="wrapped">
 				<Fade right>
-					<img onClick={() => setIsOpen(true)} src={Inform} alt="Informieren" />
+					<img
+						className="youtube"
+						onClick={() => setIsOpen(true)}
+						src={Inform}
+						alt="Informieren"
+					/>
 				</Fade>
 				<ModalVideo
 					channel="youtube"

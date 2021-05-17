@@ -216,7 +216,12 @@ h1 {
 	background: $green;
 	display: flex;
 	color: $blue;
+	@include fadeHover();
+	cursor: pointer;
 	img {
+		&:hover {
+			transform: scale(1.05);
+		}
 		float: right;
 		margin-left: 3rem;
 		width: 273px;
