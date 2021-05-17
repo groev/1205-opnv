@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Icons() {
 	const input = {
-		headline: 'Mit der ÖPNV App wird alles einfacher.',
+		headline: 'Mit der MobiApp wird alles einfacher.',
 		subline: 'Schneller. Bequemer. In Echtzeit.',
 		items: [
 			{ icon: Smile, text: 'Nutzer lieben die App' },
