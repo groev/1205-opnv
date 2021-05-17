@@ -59,8 +59,8 @@ export default function Finish() {
 						<span style={{ fontSize: '1rem' }}>Geschäftsführung</span>
 						<br />
 						E-Mail: <a href="mailto:m.aue@12-05.de">m.aue@12-05.de</a>
-						<br /> Telefon: <a href="tel:0212233879633">0212-2338796-33</a>
-						<br /> Mobil: <a href="tel:015124159933">0151-24159933</a>
+						<br /> Telefon: <a href="tel:0212233879633">0212 2338796-33</a>
+						<br /> Mobil: <a href="tel:015124159933">0151 24159933</a>
 					</p>
 				</div>
 
