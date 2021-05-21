@@ -24,7 +24,7 @@ export default function Finish() {
 		head: 'Vorteile im Überblick',
 		items: [
 			'Nach kurzer Zeit sofort Loslegen',
-			'In kleinen Schritten, dank des modularen Systems - einzuführen',
+			'In kleinen Schritten, dank des modularen Systems, einzuführen',
 			'Keine zusätzlichen Hardware-Kosten',
 			'Nutzerfreundliche, intuitive Oberfläche ',
 			'Direkter Draht zum Personal',
