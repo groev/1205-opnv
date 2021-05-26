@@ -17,7 +17,7 @@ export default function Mockups() {
 			{
 				source: mockup3,
 				hoverText:
-					'Behalten Sie den Überblick mit chronologischem Aufbau der Infos',
+					'Behalten Sie den Überblick mit chronologischem Aufbau der Infos.',
 			},
 			{
 				source: mockup2,

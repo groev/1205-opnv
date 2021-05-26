@@ -50,7 +50,7 @@ export default function Finish() {
 					<p>
 						<span className="green">
 							Vereinbaren Sie jetzt Ihren persönlichen und unverbindlichen
-							Vorstellungstermin.
+							Beratungstermin.
 						</span>
 						<br />
 						<br />
