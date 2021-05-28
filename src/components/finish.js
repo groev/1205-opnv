@@ -6,7 +6,7 @@ import { Zoom } from 'react-reveal';
 
 export default function Finish() {
 	const data1 = {
-		head: 'Auszug der möglichen Module',
+		head: 'Module',
 		items: [
 			'Informations- und Newsbereiche aus den Abteilungen',
 			'Mängelzettel/Schadensmeldungen für die Werkstatt',
@@ -21,7 +21,7 @@ export default function Finish() {
 		],
 	};
 	const data2 = {
-		head: 'Vorteile im Überblick',
+		head: 'Vorteile',
 		items: [
 			'Nach kurzer Zeit sofort Loslegen',
 			'In kleinen Schritten, dank des modularen Systems, einzuführen',
@@ -66,6 +66,7 @@ export default function Finish() {
 				<div className="accids">
 					<Accordion data={data1} />
 					<Accordion data={data2} />
+					<a href="https://www.12-05.de/opnv">Unsere ÖPNV-Kompetenz</a>
 				</div>
 				<div className="footer">
 					<div>12-05 Solutions GmbH & Co. KG</div>

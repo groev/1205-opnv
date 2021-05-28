@@ -498,9 +498,21 @@ h1 {
 		@include standard;
 		grid-gap: 3rem;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		@media (max-width: $mobWrap) {
 			grid-template-columns: 1fr;
+		}
+		> a {
+			color: #fff;
+			border: 1px solid #fff;
+			border-radius: 8px;
+			padding: 0.5rem 1rem;
+			text-decoration: none;
+			text-align: left;
+			@include fadeHover();
+			&:hover {
+				background: $green;
+			}
 		}
 	}
 }
