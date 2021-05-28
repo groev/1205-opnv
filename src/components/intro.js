@@ -23,7 +23,7 @@ export default function Intro() {
 					channel="youtube"
 					autoplay
 					isOpen={isOpen}
-					videoId="exPKRBoGrZo"
+					videoId="SC7Iv0YKdXE"
 					onClose={() => setIsOpen(false)}
 				/>
 
