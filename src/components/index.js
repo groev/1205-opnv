@@ -7,6 +7,10 @@ import Mockups from './mockups';
 import SingleMockup from './singleMockup';
 import Icons from './icons';
 import Intro from './intro';
+import Slider from './slider';
+import Referenz from './referenz';
+import Fazit from './fazit';
+import Demo from './demo';
 
 export {
 	Hero,
@@ -18,4 +22,8 @@ export {
 	SingleMockup,
 	Icons,
 	Intro,
+	Slider,
+	Referenz,
+	Fazit,
+	Demo,
 };

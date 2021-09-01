@@ -31,27 +31,6 @@ export default function Mockups() {
 				<Zoom>
 					<img src={Speech1} alt="Aus der App!" />
 				</Zoom>
-				<div
-					className="text"
-					dangerouslySetInnerHTML={{ __html: input.text }}
-				></div>
-				<div className="mockup-grid">
-					{input.screens &&
-						input.screens.map((screen, idx) => {
-							return (
-								<Fade reset left delay={idx * 300}>
-									<div className="item">
-										<div
-											className="screen"
-											style={{ backgroundImage: `url(${screen.source})` }}
-										>
-											<div className="hover">{screen.hoverText}</div>
-										</div>
-									</div>
-								</Fade>
-							);
-						})}
-				</div>
 			</div>
 		</div>
 	);

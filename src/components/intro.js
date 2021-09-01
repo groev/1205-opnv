@@ -12,12 +12,10 @@ export default function Intro() {
 		<div id="intro">
 			<div className="wrapped">
 				<Fade right>
-					<img
-						className="youtube"
-						onClick={() => setIsOpen(true)}
-						src={Inform}
-						alt="Informieren"
-					/>
+					<div className="img-wrapper" onClick={() => setIsOpen(true)}>
+						<img className="youtube" src={Inform} alt="Informieren" />
+						Video öffnen
+					</div>
 				</Fade>
 				<ModalVideo
 					channel="youtube"
@@ -28,9 +26,9 @@ export default function Intro() {
 				/>
 
 				<h2>
-					Halten Sie Ihr Personal auf dem Laufenden:
+					Vor Arbeitsbeginn stets aktuell zeit- und ortsunabhängig informiert
+					sein!
 					<br />
-					<strong>Egal wann. Egal wo.</strong>
 				</h2>
 				<div className="sub">{input.sub}</div>
 			</div>

@@ -6,39 +6,53 @@ export default function GreenText() {
 		<div id="Greentext">
 			<div className="wrapped">
 				<Fade down>
-					<h2>
-						DIGITALISIERUNG.
-						<br />
-						EINFACH. MACHEN.
-					</h2>
+					<h2>Die Module: So bauen Sie ihre individuelle Lösung!</h2>
 				</Fade>
 				<div className="content">
-					<p>
-						<strong>
-							Kommunikation als Erfolgsgarant der digitalen Transformation.
-						</strong>
-					</p>
-					<ul>
-						<li>
-							Holen Sie mit der App Ihr Personal bei der Veränderung mit ins
-							Boot.
-						</li>
-						<li>
-							Gestalten Sie mit der App die Prozesse im Schulterschluss mit
-							Ihrem Personal.
-						</li>
-						<li>
-							Steigern Sie mit der App den digitalen Reifegrad der gesamten
-							Belegschaft.
-						</li>
-					</ul>
-					<p>
-						<strong>
-							Können Sie es sich noch leisten, bei der Informationspflicht des
-							Personals auf digitale Wege zu verzichten? Die App bietet Ihnen
-							einen einfachen Einstieg.
-						</strong>
-					</p>
+					<Fade>
+						<div className="infogrid">
+							<div className="head grid-1">Informationsmodule</div>
+							<div className="grid-1">
+								News/Aktuelles aus unterschiedlichen Bereichen
+							</div>
+							<div className="grid-1">Pushfunktionen für eilige Meldungen</div>
+							<div className="grid-1">Newsstream zur schnellen Übersicht </div>
+							<div className="grid-1">Einfaches Aufrufen und Auffinden</div>
+							<div className="grid-1">Abruf von umfassenden Dokumenten </div>
+							<div className="grid-1">Integration weitere Abteilungen</div>
+							<div className="grid-1">Einfaches Redaktionssystem</div>
+
+							<div className="head grid-2">Interaktionsmodule</div>
+							<div className="grid-2">
+								Verlinkung/Intergration Dienstplan, Urlaubsplan
+							</div>
+							<div className="grid-2">
+								Schadens- und Unfallmeldungen (Fahrzeug, Haltestelle, Objekte)
+							</div>
+							<div className="grid-2">
+								Urlaubsmeldungen, Diensttausche, Fundsachen
+							</div>
+							<div className="grid-2">
+								Bestellungen: Dienstkleidung, Kantine, Arbeitsunterlagen
+							</div>
+							<div className="grid-2">
+								Feedbackfunktionen, Kommentarfunktionen
+							</div>
+							<div className="grid-2">Tarifinformationen </div>
+							<div className="grid-2">Fahrsituation (ITCS) </div>
+							<div className="head grid-3">Performancemodule</div>
+							<div className="grid-3">
+								Buchung von Schulungen, Fahrerschulungen{' '}
+							</div>
+							<div className="grid-3">Training, E-Learnings</div>
+							<div className="grid-3">Quiz- und Assessmentfunktionen</div>
+							<div className="grid-3">persönliches Profil</div>
+							<div className="grid-3">Community</div>
+
+							<div className="grid-3">Umfragen </div>
+							<div className="grid-3">Onboarding</div>
+						</div>
+					</Fade>
 				</div>
 			</div>
 		</div>

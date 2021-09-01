@@ -16,7 +16,9 @@ export default function Hero() {
 				<div className="content">
 					<span>{input.subline}</span>
 					<h1>
-						<b>Kommunikation</b> im ÖPNV <b>digitalisieren.</b>
+						Einfach die Kommunikation
+						<br />
+						zum Fahrdienst digitalisiert!
 					</h1>
 				</div>
 			</Fade>

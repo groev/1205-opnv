@@ -1,8 +1,8 @@
 import React from 'react';
 import Speech2 from '../assets/speech2.svg';
-import Aue from '../assets/aue.jpg';
+import Aue from '../assets/marcus.jpg';
 import Accordion from './accordion';
-import { Zoom } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 export default function Finish() {
 	const data1 = {
@@ -41,28 +41,25 @@ export default function Finish() {
 	return (
 		<div id="Finish">
 			<div className="wrapped">
-				<Zoom>
-					<img src={Speech2} alt="speech2"></img>
-				</Zoom>
-
-				<div className="contact">
-					<img src={Aue} alt="Marcus Aue" />
-					<p>
-						<span className="green">
-							Vereinbaren Sie jetzt Ihren persönlichen und unverbindlichen
-							Beratungstermin.
-						</span>
-						<br />
-						<br />
-						Marcus Aue
-						<br />
-						<span style={{ fontSize: '1rem' }}>Geschäftsführung</span>
-						<br />
-						E-Mail: <a href="mailto:m.aue@12-05.de">m.aue@12-05.de</a>
-						<br /> Telefon: <a href="tel:0212233879633">0212 2338796-33</a>
-					</p>
-				</div>
-
+				<Fade up>
+					<div className="contact">
+						<img src={Aue} alt="Marcus Aue" />
+						<p>
+							<span className="green">
+								Vereinbaren Sie jetzt Ihren persönlichen und unverbindlichen
+								Beratungstermin.
+							</span>
+							<br />
+							<br />
+							Marcus Aue
+							<br />
+							<span style={{ fontSize: '1rem' }}>Geschäftsführung</span>
+							<br />
+							E-Mail: <a href="mailto:m.aue@12-05.de">m.aue@12-05.de</a>
+							<br /> Telefon: <a href="tel:0212233879633">0212 2338796-33</a>
+						</p>
+					</div>
+				</Fade>
 				<div className="accids">
 					<Accordion data={data1} />
 					<Accordion data={data2} />

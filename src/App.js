@@ -8,6 +8,10 @@ import {
 	Mockups,
 	Intro,
 	SingleMockup,
+	Slider,
+	Referenz,
+	Demo,
+	Fazit,
 } from './components';
 import './assets/style.scss';
 
@@ -17,11 +21,15 @@ function App() {
 			<Header />
 			<Hero />
 			<Intro />
+			<Slider />
 			<Icons />
 			<Image />
 			<SingleMockup />
 			<Mockups />
 			<Greentext />
+			<Referenz />
+			<Demo />
+			<Fazit />
 			<Finish />
 		</div>
 	);
