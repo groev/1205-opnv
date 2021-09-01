@@ -6,7 +6,7 @@ export default function GreenText() {
 		<div id="Greentext">
 			<div className="wrapped">
 				<Fade down>
-					<h2>Die Module: So bauen Sie ihre individuelle Lösung!</h2>
+					<h2>Die Module: So bauen Sie Ihre individuelle Lösung!</h2>
 				</Fade>
 				<div className="content">
 					<Fade>
@@ -19,12 +19,12 @@ export default function GreenText() {
 							<div className="grid-1">Newsstream zur schnellen Übersicht </div>
 							<div className="grid-1">Einfaches Aufrufen und Auffinden</div>
 							<div className="grid-1">Abruf von umfassenden Dokumenten </div>
-							<div className="grid-1">Integration weitere Abteilungen</div>
+							<div className="grid-1">Integration weiterer Abteilungen</div>
 							<div className="grid-1">Einfaches Redaktionssystem</div>
 
 							<div className="head grid-2">Interaktionsmodule</div>
 							<div className="grid-2">
-								Verlinkung/Intergration Dienstplan, Urlaubsplan
+								Verlinkung/Integration Dienstplan, Urlaubsplan
 							</div>
 							<div className="grid-2">
 								Schadens- und Unfallmeldungen (Fahrzeug, Haltestelle, Objekte)

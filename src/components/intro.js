@@ -6,7 +6,7 @@ import ModalVideo from 'react-modal-video';
 export default function Intro() {
 	const [isOpen, setIsOpen] = useState(false);
 	const input = {
-		sub: 'Wie läuft’s mit Ihrer Informationspflicht? Ist Ihre interne Kommunikation bisher aufwändig bis herausfordernd? Erreichen Sie alle Mitarbeiter*innen in kürzester Zeit?',
+		sub: 'Wie läuft’s mit Ihrer Informationspflicht? Ist Ihre interne Kommunikation bisher aufwändig bis herausfordernd? Erreichen Sie alle Mitarbeiter*Innen in kürzester Zeit?',
 	};
 	return (
 		<div id="intro">

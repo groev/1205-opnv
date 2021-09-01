@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Icons() {
 	const input = {
-		headline: 'Mit der mobiApp lösen Sie',
+		headline: 'Mit der mobiapp lösen Sie',
 		subline: ' folgende Herausforderungen.',
 		items: [
 			{
@@ -20,22 +20,22 @@ export default function Icons() {
 			{
 				icon: Zettel,
 				text: 'Abschaffen der Aushangkästen!',
-				more: 'Hoher Aufwand - wenig Nutzen.  Heben Sie eine großen Effizenzschlüssel. Sparen Sie Zeit und menschliche Ressource für die Pflege der Aushänge.',
+				more: 'Hoher Aufwand - wenig Nutzen. Sparen Sie Zeit und menschliche Ressource für die Pflege der Aushänge.',
 			},
 			{
 				icon: Weeks,
 				text: 'Auflösen der Zettelwirtschaft!',
-				more: 'Unmengen an Formularen, je nach Fall. Für alles gibt es einen "anderen" Zettel. Vereinfachen Sie für Ihr Fahrpersonal die Meldung, z. b. bei Schäden, Unfällen & Co.',
+				more: 'Unmengen an Formularen, je nach Fall. Für alles gibt es einen "anderen" Zettel. Vereinfachen Sie für Ihr Fahrpersonal die Meldung, z. B. bei Schäden, Unfällen & Co.',
 			},
 			{
 				icon: Devices,
 				text: 'Integration in bestehende Systemlandschaften!',
-				more: 'Dienstplan, Urlaub, Ausfahrt, Fahrzeug,... für jede Fall eine separte Anwendung - das muss nicht sein. Erleichtern sie Ihrem Personal die Suche über ein zentrales Tool.',
+				more: 'Dienstplan, Urlaub, Ausfahrt, Fahrzeug,... für jede Fall eine separte Anwendung. Das muss nicht sein. Erleichtern Sie Ihrem Personal die Suche über ein zentrales Tool.',
 			},
 			{
 				icon: Signal,
-				text: 'Steigerung Mitarbeiterperformance! ',
-				more: 'Wichtige Schulungen bis technisches Wissen. Individuelles Coaching des Mitarbeiters. Steigern Sie ganz individuell die Kompetenz einer jeder Person',
+				text: 'Steigerung der Mitarbeiterperformance! ',
+				more: 'Wichtige Schulungen bis technisches Wissen. Individuelles Coaching des Mitarbeiters. Steigern Sie ganz individuell die Kompetenz jeder einzelnen Person',
 			},
 		],
 	};

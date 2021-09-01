@@ -23,8 +23,8 @@ export default function Finish() {
 	const data2 = {
 		head: 'Vorteile',
 		items: [
-			'Nach kurzer Zeit sofort Loslegen',
-			'In kleinen Schritten, dank des modularen Systems, einzuführen',
+			'Nach kurzer Zeit sofort loslegen',
+			'In kleinen Schritten einführbar (dank des modularen Systems)',
 			'Keine zusätzlichen Hardware-Kosten',
 			'Nutzerfreundliche, intuitive Oberfläche ',
 			'Direkter Draht zum Personal',
