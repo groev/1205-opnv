@@ -33,7 +33,7 @@ export default function Finish() {
 			'Einfach zu bedienendes Redaktionssystem',
 			'Effizienzsteigerung bei internen Abläufen ',
 			'Schnelle Amortisation ',
-			'Neben App-Anwendung für Smartphones auch als PC- und Tablet nutzbar',
+			'Neben App-Anwendung für Smartphones auch auf PC- und Tablet nutzbar',
 			'Ersetzt zahlreiche komplizierte Kommunikationswege und Prozesse',
 			'Erweiterbar auf andere Betriebsbereiche (Werkstatt, Vertrieb, Leitstelle, u. v. m.)',
 		],

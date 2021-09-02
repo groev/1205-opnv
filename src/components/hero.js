@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Hero() {
 	const input = {
-		subline: 'Die MobiApp von 12-05:',
+		subline: 'Die mobiapp von 12-05:',
 		videosrc: Bus,
 	};
 	return (

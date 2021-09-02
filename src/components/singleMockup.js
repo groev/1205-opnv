@@ -6,13 +6,13 @@ export default function SingleMockup() {
 	const input = {
 		head: 'Moderne Mitarbeiter-Plattform eines Mobilitätsunternehmens mit Schichtbetrieb.',
 		arguments: [
-			'Intuitive Bedienung bei niedriger Hemmschwelle!',
-			'Erleichterung der Arbeitsabläufe!',
-			'Aktuelle Informationen an das gesamte Personal in wenigen Minuten!',
-			'Einfache Erstellung und schnelle Versendung der Informationen!',
-			'Sichere und messbare Erreichbarkeit der Empfänger!',
-			'Nutzerfreundliche Module!',
-			'Nutzer lieben die App!',
+			'Intuitive Bedienung bei niedriger Hemmschwelle',
+			'Erleichterung der Arbeitsabläufe',
+			'Aktuelle Informationen an das gesamte Personal in wenigen Minuten',
+			'Einfache Erstellung und schnelle Versendung der Informationen',
+			'Sichere und messbare Erreichbarkeit der Empfänger',
+			'Nutzerfreundliche Module',
+			'Nutzer lieben die App',
 		],
 	};
 	return (

@@ -18,14 +18,16 @@ export default function Referenz() {
 						<li>Nutzung des eigenen Smartphones</li>
 						<li>Akzeptanz bei 94 % (Nutzerquote)</li>
 						<li>modularer Aufbau</li>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							class="btn"
-							href={Beitrag}
-						>
-							Mehr darüber in der Nahverkehr 05/2021
-						</a>
+						{1 == 2 && (
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								class="btn"
+								href={Beitrag}
+							>
+								Mehr darüber in DER NAHVERKEHR 05/2021
+							</a>
+						)}
 					</ul>
 				</div>
 			</div>
