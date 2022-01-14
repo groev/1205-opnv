@@ -126,9 +126,10 @@ h1 {
     padding: 0 30px;
     background-color: #333;
     z-index: 999;
-    .mobi {
-        height: 40px;
-        margin-left: 3rem;
+    .mobi  {
+        height: 6em;
+        margin-left: 11rem;
+        position: absolute;
         display: inline-block;
         @media (max-width: $mobWrap) {
             display: none;
@@ -309,6 +310,7 @@ h1 {
     h2 {
         @include big;
         margin-top: 0;
+        text-align:center;
     }
     .sub {
         @include standard;

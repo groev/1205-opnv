@@ -12,7 +12,7 @@ export default function Intro() {
     return (
         <div id='intro'>
             <div className='wrapped'>
-                <Fade right>
+             <Fade right>
                     <div
                         className='img-wrapper'
                         onClick={() => setIsOpen(true)}>
@@ -28,10 +28,9 @@ export default function Intro() {
                     channel='youtube'
                     autoplay
                     isOpen={isOpen}
-                    videoId='SC7Iv0YKdXE'
+                    videoId='mULEEUWWOHE'
                     onClose={() => setIsOpen(false)}
-                />
-
+                /> 
                 <h2>
                     Informieren Sie Ihre Fahrer*innen noch vor Arbeitsbeginn
                     zeit- und ortsunabhängig!

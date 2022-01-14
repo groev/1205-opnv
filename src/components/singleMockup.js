@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 export default function SingleMockup() {
     const input = {
         head:
-            "Die mobiapp – eine attraktive Plattform für Mobilitätsunternehmen im Schichtbetrieb! ",
+            "JOURI – eine attraktive Plattform für Mobilitätsunternehmen im Schichtbetrieb! ",
         arguments: [
             "Nutzer*innen bedienen die App intuitiv. ",
             "Fahrer*innen werden im Handumdrehen informiert. ",

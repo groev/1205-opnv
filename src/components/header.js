@@ -5,6 +5,7 @@ import Home from "../assets/home.svg";
 import Email from "../assets/email.svg";
 import phone from "../assets/phone.svg";
 import MobiLogo from "../assets/mobiapp.svg";
+import JouriLogo from "../assets/jouri_sw2.png";
 
 export default function Header() {
     return (
@@ -13,7 +14,7 @@ export default function Header() {
                 <a href='https://12-05.de'>
                     <img className='logo' src={Logo} alt='Logo' />
                 </a>
-                <img className='mobi' src={MobiLogo} alt='Mobi' />
+                <img className='mobi' src={JouriLogo} alt='Jouri' />
             </div>
 
             <div className='navi'>

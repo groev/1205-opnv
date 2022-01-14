@@ -5,7 +5,7 @@ import Slider from "react-slick";
 
 export default function Hero() {
     const input = {
-        subline: "Mit der mobiapp profitiert Ihr Personal: ",
+        subline: "Mit JOURI profitiert Ihr Personal: ",
         videosrc: Bus,
     };
 

@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Icons() {
     const input = {
-        headline: "Mit der mobiapp lösen Sie",
+        headline: "Mit JOURI lösen Sie",
         subline: " viele  Herausforderungen:",
         items: [
             {
@@ -47,7 +47,7 @@ export default function Icons() {
                 icon: Gerate,
                 text: "Einbindung verschiedener Endgeräte ",
                 more:
-                    "Ob Handy, Tablet, Screen, oder Desktop PC – nutzen Sie die mobiapp geräteungebunden zum Bespielen sämtlicher Devices.",
+                    "Ob Handy, Tablet, Screen, oder Desktop PC – nutzen Sie JOURI geräteungebunden zum Bespielen sämtlicher Devices.",
             },
         ],
     };
