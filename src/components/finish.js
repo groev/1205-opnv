@@ -143,13 +143,13 @@ export default function Finish() {
         </div>
         <div className="hinweis">
           <p>
-            Aus Gründen der besserern Lesbarkeit verwenden wir das generische
+            * Aus Gründen der besserern Lesbarkeit verwenden wir das generische
             Maskulinum. Die verkürtze Sprachform hat redaktionelle Gründe und
             ist wertfrei.
           </p>
         </div>
         <div className="footer">
-          <div>12-05 Solutions GmbH & Co. KG</div>
+          <div>12-05 Solutions GmbH & Co. KG | Made In Germany</div>
           <div className="menu">
             <a href="https://12-05.de/#contacts">Kontakt</a>
             <a href="https://12-05.de/datenschutz">Datenschutz</a>

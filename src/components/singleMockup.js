@@ -10,7 +10,7 @@ export default function SingleMockup() {
       "ist als App sowohl auf privaten Smartphones als auch auf Diensthandys und -Tablets einsetzbar",
       "lässt sich von Redakteuren sowie Nutzern einfach bedienen und ist in wenigen Wochen einsatzbereit",
       "kann individuell gestaltet und modular aufgebaut werden",
-      "bietet einen niedrigen Einstiegspreis dank Lizenzmodell.",
+      "bietet einen niedrigen Einstiegspreis dank Lizenzmodell",
     ],
   };
 
@@ -21,7 +21,7 @@ export default function SingleMockup() {
           <img src={Phone} alt="handy" />
         </Fade>
         <div className="content">
-          <h2>Was jouri ausmacht</h2>
+          <h2>Was jouri ausmacht:</h2>
           <ul>
             {input.arguments &&
               input.arguments.map((argument, idx) => (

@@ -11,7 +11,7 @@ import Accordion from "./accordion";
 export default function Icons() {
   const accItems = [
     {
-      head: "Jouri fördert die Motivation",
+      head: "fördert die Motivation",
       content: (
         <>
           <p>
@@ -50,7 +50,7 @@ export default function Icons() {
       ),
     },
     {
-      head: "jouri vereinfacht die Kommunikation:",
+      head: "vereinfacht die Kommunikation",
       content: (
         <>
           <p>
@@ -77,7 +77,7 @@ export default function Icons() {
       ),
     },
     {
-      head: "Jouri macht Spaß",
+      head: "macht Spaß",
       content: (
         <>
           <p>
@@ -101,16 +101,17 @@ export default function Icons() {
             </li>
           </ul>
           <p>
-            Der neue Mitarbeiter stellt sich seiner Abteilung per App mit Bild
-            und einigen amüsanten Fakten vor. Das Lesen macht Spaß und ein
-            erstes Gesprächsthema für den ersten Arbeitstag ist auch gefunden –
-            außerdem können Sie dem Namen schon jetzt ein Gesicht zuordnen.{" "}
+            Use Case: Der neue Mitarbeiter stellt sich seiner Abteilung per App
+            mit Bild und einigen amüsanten Fakten vor. Das Lesen macht Spaß und
+            ein erstes Gesprächsthema für den ersten Arbeitstag ist auch
+            gefunden – außerdem können Sie dem Namen schon jetzt ein Gesicht
+            zuordnen.{" "}
           </p>
         </>
       ),
     },
     {
-      head: "Jouri erregt Aufmerksamkeit",
+      head: "erregt Aufmerksamkeit",
       content: (
         <>
           <p>
@@ -142,7 +143,7 @@ export default function Icons() {
       ),
     },
     {
-      head: "Jouri steht für Flexibilität",
+      head: "steht für Flexibilität",
       content: (
         <>
           <p>
@@ -164,7 +165,7 @@ export default function Icons() {
             </li>
           </ul>
           <p>
-            Nach den ersten Monaten Nutzung hat sich jouri als
+            Use Case: Nach den ersten Monaten Nutzung hat sich jouri als
             Informationsplattform etabliert und wird täglich genutzt. Aus Ihrem
             Team wird der Wunsch an Sie herangetragen, künftig auch
             Urlaubsanträge und Schadensmeldungen digital abwickeln zu können.
@@ -195,14 +196,12 @@ export default function Icons() {
               <li>
                 Durch die Digitalisierung analoger Prozesse werden Zeit,
                 Materialien und Personalkosten eingespart. Die Arbeitsleistung
-                des Teams wird so gesteigert
+                des Teams wird so gesteigert.
               </li>
-              .
               <li>
                 Aktuelle Informationen vermeiden Verzögerungen im Betrieb und
-                beugen Kundenbeschwerden vor
+                beugen Kundenbeschwerden vor.
               </li>
-              .
             </ul>
             <p>
               Use Case: Ein Busfahrer bekommt vor Dienstbeginn die Information
@@ -235,7 +234,6 @@ export default function Icons() {
                 Redakteure können sehen, wie ihre Beiträge ankommen und was im
                 Team als besonders interessant wahrgenommen wird.
               </li>
-              .
             </ul>
             <p>
               Use Case: Eine neue Coronaverordnung tritt kurzfristig am nächsten
@@ -251,7 +249,7 @@ export default function Icons() {
       },
       {
         icon: Weeks,
-        text: "Jouri besticht durch Nutzerfreundlichkeit:",
+        text: "besticht durch Nutzerfreundlichkeit",
         more: (
           <>
             <p>
@@ -280,7 +278,7 @@ export default function Icons() {
       },
       {
         icon: Devices,
-        text: "Jouri ermöglicht unternehmensübergreifenden Einsatz",
+        text: "ermöglicht unternehmensübergreifenden Einsatz",
         more: (
           <>
             <p>
@@ -318,7 +316,7 @@ export default function Icons() {
       },
       {
         icon: Gerate,
-        text: "Jouri läuft auf allen Geräten",
+        text: "läuft auf allen Geräten",
         more: (
           <>
             <p>
@@ -357,7 +355,7 @@ export default function Icons() {
       },
       {
         icon: Signal,
-        text: "Jouri sorgt für hohe Akzeptanz durch gezielte Information",
+        text: "sorgt für hohe Akzeptanz durch gezielte Information",
         more: (
           <>
             <p>
@@ -407,6 +405,7 @@ export default function Icons() {
             })}
         </div>
         <div style={{ marginTop: "2rem" }}>
+          <h3>Weitere Vorteile:</h3>
           {accItems &&
             accItems.map((item, idx) => {
               return <Accordion item={item} index={idx} />;

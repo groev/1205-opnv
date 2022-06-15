@@ -29,7 +29,6 @@ function App() {
       <Greentext />
       <Referenz />
       <Demo />
-      <Fazit />
       <Finish />
     </div>
   );

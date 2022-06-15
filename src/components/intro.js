@@ -24,16 +24,12 @@ export default function Intro() {
           videoId="mULEEUWWOHE"
           onClose={() => setIsOpen(false)}
         />
-        <h2>
-          Informieren Sie Ihre Fahrer*innen noch vor Arbeitsbeginn zeit- und
-          ortsunabhängig!
-          <br />
-        </h2>
+        <h2>Bon jouri!</h2>
         <p>
-          Sie möchten die Produktivität Ihrer Mitarbeiter erhöhen, ihre
+          Sie möchten die Produktivität Ihrer Mitarbeiter* erhöhen, ihre
           Motivation steigern und den Aufwand verringern?
         </p>
-        <p>jouri ist eine App-Lösung für Teams im ÖPNV und Omnibusbetrieb.</p>
+        <p> jouri ist eine App-Lösung für Teams im ÖPNV und Omnibusbetrieb.</p>
       </div>
     </div>
   );
